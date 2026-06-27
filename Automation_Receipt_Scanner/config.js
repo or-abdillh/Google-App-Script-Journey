@@ -28,3 +28,5 @@ const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/
 // [IT]: Nama lembar kerja (sheet) di Google Sheets tempat program akan menulis 
 // data hasil ekstraksi struk belanja. Nama ini harus sama persis dengan tab di Sheets.
 const LEDGER_SHEET = "Ledger";
+
+const GEMINI_MODEL = "gemini-2.5-flash"
