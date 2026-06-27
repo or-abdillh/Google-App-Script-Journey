@@ -21,7 +21,7 @@ const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";
 // [IT]: URL tujuan (endpoint) untuk mengirimkan request analisis gambar struk. 
 // Di sini kita memanggil model 'gemini-flash-latest' yang dioptimalkan untuk 
 // kecepatan proses (kecepatan respon tinggi).
-const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent";
+const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/interactions";
 
 // 3. Nama Sheet Buku Besar (Ledger)
 // [Akuntansi]: Buku Besar (Ledger) adalah tempat mencatat akumulasi transaksi.
